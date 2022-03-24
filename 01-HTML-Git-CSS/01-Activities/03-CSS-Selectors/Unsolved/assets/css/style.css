@@ -1,19 +1,21 @@
 /* TODO: Label selector type */
-/* Universal Selector */
+/* Universal Selector applies styling to all content in the file*/
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
 /* TODO: Label selector type */
-/* Element Selector */
+/* Element Selector selects the anchor element */
 a:hover{
   color: yellow;
 }
 
+/* Element Selector: selects the whole content of the body */
 body {
   background-color: lemonchiffon;
 }
 
+/* element selector selects the header and the footer */
 header,
 footer {
   width: 100%;
@@ -23,13 +25,15 @@ footer {
   background-color: #191970;
 }
 
+/* element selector selects the figure element */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
 /* TODO: Label selector type */
-/* Class Selector */
+/* Class Selector selects the highlighted text. uses pseudo selector (hover)
+to define the styling that is applied when the user hovers */
 .highlighted-text:hover {
   font-weight: bolder;
   background: blue;
@@ -37,7 +41,7 @@ figure {
 }
 
 /* TODO: Label selector type */
-/* ID Selector */
+/* ID Selector selects the contact section*/
 #contact-section {
   background-color: #f0ead6;
 }
